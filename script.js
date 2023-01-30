@@ -403,7 +403,7 @@ gsap.from("#im1",{
     opacity: 0,
     delay : 0 ,
     duration : 2 ,
-    x:-150
+    x:-50
 })
 gsap.from("#im2",{
     scrollTrigger:{
@@ -471,17 +471,18 @@ gsap.from("#contentsection h2",{
     duration : 5 ,
     // y:-25
 })
-gsap.to(".contactForm",{
+gsap.from(".contactForm",{
     scrollTrigger:{
         trigger: ".contact",
         start:"top 65%",
         end:"top 100%",
-        scrub:1,
+        scrub:true,
         // markers:true
     },
-    opacity: 1,
-    transform:"rotate(0deg)",
-    duration:1
+    opacity: 0,
+    delay : 0 ,
+    duration : 5 ,
+    // y:-25
 })
 gsap.from("#pg7imgcontents",{
     scrollTrigger:{
