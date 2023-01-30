@@ -289,7 +289,7 @@ nav{
         color: rgb(238, 229, 232);
         font-size: 1.5vh;
         font-weight: 100;
-        font-family: "bromarkers_demoregular";
+        font-family:'Times New Roman', Times, serif;
       }
       .gallerytext{
         height: 25vh;
@@ -477,10 +477,7 @@ nav{
         /* background-color: rgb(27, 128, 111); */
         padding: 0 5vw;
         z-index: 999;
-    }    
-    #page5 .contact .container .contactForm{
-        transform: rotate(-45deg);
-    }
+    } 
 
     #page5 .contact .container .contactForm h2{
         font-size: 3.5vh;
@@ -1382,7 +1379,8 @@ video{
     color: rgb(238, 229, 232);
     font-size: 4vh;
     font-weight: 100;
-    font-family: "bromarkers_demoregular";
+    /* font-family: "bromarkers_demoregular"; */
+    font-family: gilroy;
   }
   .gallerytext{
     height: 40vh;
@@ -2052,7 +2050,7 @@ video{
     min-width: 350px;
     background-color: rgba(0,0,0);
     color: white;
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
     backdrop-filter: Blur(122px);
     /* border-radius: 10px; */
     padding: 2vh 2vw;
@@ -2311,6 +2309,12 @@ footer{
     object-fit: cover;
     object-position: center;
     margin: 0 0.5vw;
+}
+#pg7imgbelo a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
 }
 #callback{
     position: relative;
