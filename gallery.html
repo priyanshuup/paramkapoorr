@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./lightbox.css">
+
+</head>
+<style>
+    #page3{
+        background-color: transparent;
+    }
+</style>
+<body id="galleryu">
+    
+    <div id="main">
+        <header class="header active">
+            <img class="logo" src="./logo/W-Logo.png" alt="logoterimakachodo">
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li> <a data-active="homeu" href="./" class="navbar-link">HOME</a></li>
+                    <li> <a data-active="galleryu" href="./gallery.html" id="gallery" class="navbar-link">GALLERY</a></li>
+                    <li> <a data-active="videou" href="./video.html" class="navbar-link">VIDEO</a></li>
+                    <li> <a data-active="musicu" href="./music.html" class="navbar-link">MUSIC</a></li>
+                    <li> <a data-active="eventsu" href="./events.html" class="navbar-link">EVENTS</a></li>
+                    <li> <a data-active="contactu" href="./contact.html" class="navbar-link">CONTACT</a></li>
+                    <li> <a data-active="shopu" href="./shop.html" class="navbar-link">SHOP</a></li>
+                
+                </ul>
+            </nav>
+            <nav class="navbarmob">
+                    <ul class="navbar-list">
+                    <li> <a href="#page1" id="home" class="navbar-link vc">HOME</a></li>
+                    <li> <a href="#page3" id="gallery" class="navbar-link vc">GALLERY</a></li>
+                    <li> <a href="#page4" id="music" class="navbar-link vc">MUSIC</a></li>
+                    <li> <a href="#page2" id="events" class="navbar-link vc">EVENTS</a></li>
+                    <li> <a href="#page5" id="contact" class="navbar-link vc">CONTACT</a></li>
+                    <!-- <li> <a href="#page6" id= "video" class="navbar-link vc">VIDEO</a></li>
+                    <li> <a href="#page7" id= "video" class="navbar-link vc">SHOP</a></li> -->
+                    </ul>
+            </nav>
+            <div class="mobile-navbar-btn">
+                <i class="ri-menu-fill"></i>
+                <i class="ri-close-line"></i>
+            </div>
+        </header>
+        <div id="video">
+            
+            <video src="./InShot_20220819_141927249.mp4" autoplay muted loop width="${e://Field/vid_width}"></video>
+        </div>
+        
+        <div id="overlay3">
+        </div>
+        <div class="mil">
+        </div>
+        <div id="page3">
+            <!-- <div id="overlay3"> -->
+            <!-- </div> -->
+            <div id="gco">
+                
+                <div id="gallerytxt">
+                    
+                    <!-- <h1>GALLERY</h1> -->
+                </div>
+            <div class="row">
+                <div class="column">
+                    <a href="pp/pp1.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp1.jpg" alt="">
+                    </a>
+                    <a href="pp/pp2.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp2.jpg" alt="">
+                    </a>
+                    <a href="pp/pp3.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp4.jpg" alt="">
+                    </a>
+                    <a href="pp/pp4.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="column hide">
+                    <a href="pp/pp5.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp5.jpg" alt="">
+                    </a>
+                    <a href="pp/pp6.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp6.jpg" alt="">
+                    </a>
+                    <a href="pp/pp7.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp7.jpg" alt="">
+                    </a>
+                    <a href="pp/pp8.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp8.jpg" alt="">
+                    </a>
+                </div>
+                <div class="column hide">
+                    <a href="pp/pp9.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp9.jpg" alt="">
+                    </a>
+                    <a href="pp/pp10.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp10.jpg" alt="">
+                    </a>
+                    <a href="pp/pp11.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp11.jpg" alt="">
+                    </a>
+                    <a href="pp/pp12.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp12.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="column hide">
+                    <a href="pp/pp13.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp13.jpg" alt="">
+                    </a>
+                    <a href="pp/pp14.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp14.jpg" alt="">
+                    </a>
+                    <a href="pp/pp15.jpg" data-lightbox="models" dta-title="Caption1" >
+                        <img src="pp/pp15.jpg" alt="">
+                    </a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="./lightbox-plus-jquery.js"></script>
+    <footer>Copyright © 2023 All rights reserved</footer>
+</body>
+</html>

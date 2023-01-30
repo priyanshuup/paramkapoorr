@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<style>
+    #page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    }
+</style>
+<body>
+        
+    <div id="main">
+        <div id="navhead">
+
+        <header class="header active">
+                <img class="logo" src="./logo/W-Logo.png" alt="logoterimakachodo">
+                
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li> <a data-active="homeu" href="./" class="navbar-link">HOME</a></li>
+                        <li> <a data-active="galleryu" href="./gallery.html" id="gallery" class="navbar-link">GALLERY</a></li>
+                        <li> <a data-active="videou" href="./video.html" class="navbar-link">VIDEO</a></li>
+                        <li> <a data-active="musicu" href="./music.html" class="navbar-link">MUSIC</a></li>
+                        <li> <a data-active="eventsu" href="./events.html" class="navbar-link">EVENTS</a></li>
+                        <li> <a data-active="contactu" href="./contact.html" class="navbar-link">CONTACT</a></li>
+                        <li> <a data-active="shopu" href="./shop.html" class="navbar-link">SHOP</a></li>
+                    
+                    </ul>
+                </nav>
+                <nav class="navbarmob">
+                        <ul class="navbar-list">
+                        <li> <a href="#page1" id="home" class="navbar-link vc">HOME</a></li>
+                        <li> <a href="#page3" id="gallery" class="navbar-link vc">GALLERY</a></li>
+                        <li> <a href="#page4" id="music" class="navbar-link vc">MUSIC</a></li>
+                        <li> <a href="#page2" id="events" class="navbar-link vc">EVENTS</a></li>
+                        <li> <a href="#page5" id="contact" class="navbar-link vc">CONTACT</a></li>
+                        <!-- <li> <a href="#page6" id= "video" class="navbar-link vc">VIDEO</a></li>
+                        <li> <a href="#page7" id= "video" class="navbar-link vc">SHOP</a></li> -->
+                        </ul>
+                </nav>
+            <div class="mobile-navbar-btn">
+                <i class="ri-menu-fill"></i>
+                <i class="ri-close-line"></i>
+            </div>
+        </header>
+        <div id="video">
+            
+            <!-- <div id="overlay3">
+            </div> --> -->
+            <video src="./InShot_20220819_141927249.mp4" autoplay muted loop width="${e://Field/vid_width}"></video>
+            
+        </div>
+        </div>
+        <div class="mil">
+        </div>
+        <div id="page5">
+
+            <div id="overlay">
+            </div>
+            <div class="contact">
+                <div class="contactimgbox">
+                    <div class="contactimgboxright">
+                        <div class="contactimgboxright1">
+                            <img src="https://images.unsplash.com/photo-1585206031773-d902d07d7480?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGFycm93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                        <div class="contactimgboxright2">
+                            <h2>Next Stop <br> is your Event</h2>
+                        </div>
+                    </div>
+                    <div class="contactimgboxleft">
+                        <div class="contactimgboxleft1">
+                            <h2>Just a<br> few steps away</h2>
+                        </div>
+                        <div class="contactimgboxleft2">
+                            <img src="https://images.unsplash.com/photo-1583906254488-ceb5f635171e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ2fHxkanxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="contactForm">
+                        <form id="submit-form">
+                            <h2>Drop Your Message ! </h2>
+                            <div class="inputBox">
+                                <label for="fnanme"></label>
+                                <input type="text" id="fname" name="name" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputBoxx">
+                                <div class="inputBox inputnum">
+                                    <input type="text" name="number" required="required">
+                                    <span>Number</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="email" required="required">
+                                    <span>Email</span>
+                                </div>
+                            </div>
+                            <div class="inputBoxx">
+                                <div class="inputBox inputnum">
+                                    <input type="text" name="DateofEvent" required="required">
+                                    <span>Date of Event</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="Occasion" required="required">
+                                    <span>Occasion</span>
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="venueAddress" required="required">
+                                <span>Venue Address</span>
+                            </div>
+                            <div class="inputBoxx">
+                                <div class="inputBox inputnum">
+                                    <input type="text" name="numberofguest" required="required">
+                                    <span>No. of Guests</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="startingat" required="required">
+                                    <span>Starting at</span>
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <label for="subject"></label>
+                                <textarea id="subject" name="message" required="required"></textarea>
+                                <span>Additional Comments</span>
+                            </div>
+                            <div class="inputBox">
+                                <input type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- </section> -->
+            </div>
+        </div>
+        <div id="page7">
+            <div id="pg7imgcontents">
+                <div class="overlay">
+
+                </div>
+                <h3>Call Param on +32 483 47 15 44 or email paramkapoorofficial@gmail.com to discuss how we can help you.</h3>
+                <div id="pg7imgbelo">
+                    <img src="./pp/pp2.jpg" alt="bsdk">
+                    <h4>Sound Good ?</h4>
+                    <div id="callback">
+                        <div class="hara3"></div>
+                        <h5>Request a callback</h5>
+                        <img src="./icons8-right-arrow-50.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div id="pg7maincontents">
+                <div id="pg71">
+                    <div id="col1">
+                        <div id="p7circle"></div>
+                        <h2>Book us for event &nbsp today</h2>
+                        <div id="cont">
+                            <h4>Let's talk</h4>
+                            <img src="./pp/pp7.jpg" alt="imgterima">
+                        </div>
+                    </div>
+                    <div id="col2">
+                        <h2>Learn</h2>
+                        <h4>Event</h4>
+                        <h4>Shops</h4>
+                    </div>
+                    <div id="col5">
+                        <h2>Explore</h2>
+                        <h4>Home</h4>
+                        <h4>Music</h4>
+                        <h4>Gallery</h4>
+                    </div>
+                    <div id="col3">
+                        <h2>Our Brances</h2>
+                        <h4>Brazil</h4>
+                        <h4>United States</h4>
+                        <h4>France</h4>
+                        <h4>St</h4>
+                        <h4>Manchester</h4>
+                        <h4>M35BQ</h4>
+                    </div>
+                    <div id="col4">
+                        <div id="cont1">
+                            <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/footer/edited/meta-white.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1643207768&s=49f73b7b0969e6e6ef4a62aef6d4955c" alt="">
+                        </div>
+                        <div id="cont2">
+                            <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/footer/edited/google-premier-white.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1643891129&s=3e4388781cd26af80ea17a81304269f7" alt="">
+                        </div>
+                        <div id="cont3">
+                            <img src="https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/footer/edited/microsoft-2022-grey.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1643207640&s=5c70ba086b207adea61f2c1aff55be09" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="pg72">
+                    <div id="pg72prt1">
+                        <h4>Param Kapoor</h4>
+                    </div>
+                    <div id="pg72prt2">
+                        <h5>2023 This is Param Kapoor Official. All rights reserved. Privacy Policy</h5>
+                        <h5>Web Design <a href="#">MadeBySNASISTEC</a> </h5>
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-linkedin-box-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Swipper JS -->
+        <script src="./js/swiper-bundle.min.js"></script>
+        
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwCeXMnTCvb9z0oymiyizXURA4xi0uxv64q58foRMYUs1gfyJTDeAwz7pbrsaeFaMDU/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Message Sent Successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+                
+            }
+        })
+    })
+</script>
+</body>
+</html>

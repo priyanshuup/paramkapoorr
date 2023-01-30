@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./lightbox.css">
+
+</head>
+<style>
+    
+</style>
+<body>
+    <audio loop id="autoplay">
+        <source control src="./Musicback.mp3" type="audio/mp3">
+    </audio>
+    <div id="main">
+        <div id="page4">
+            <header class="header active">
+                <img class="logo" src="./logo/W-Logo.png" alt="logoterimakachodo">
+                
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li> <a data-active="homeu" href="./" class="navbar-link">HOME</a></li>
+                        <li> <a data-active="galleryu" href="./gallery.html" id="gallery" class="navbar-link">GALLERY</a></li>
+                        <li> <a data-active="videou" href="./video.html" class="navbar-link">VIDEO</a></li>
+                        <li> <a data-active="musicu" href="./music.html" class="navbar-link">MUSIC</a></li>
+                        <li> <a data-active="eventsu" href="./events.html" class="navbar-link">EVENTS</a></li>
+                        <li> <a data-active="contactu" href="./contact.html" class="navbar-link">CONTACT</a></li>
+                        <li> <a data-active="shopu" href="./shop.html" class="navbar-link">SHOP</a></li>
+                    
+                    </ul>
+                </nav>
+                <nav class="navbarmob">
+                        <ul class="navbar-list">
+                        <li> <a href="#page1" id="home" class="navbar-link vc">HOME</a></li>
+                        <li> <a href="#page3" id="gallery" class="navbar-link vc">GALLERY</a></li>
+                        <li> <a href="#page4" id="music" class="navbar-link vc">MUSIC</a></li>
+                        <li> <a href="#page2" id="events" class="navbar-link vc">EVENTS</a></li>
+                        <li> <a href="#page5" id="contact" class="navbar-link vc">CONTACT</a></li>
+                        <!-- <li> <a href="#page6" id= "video" class="navbar-link vc">VIDEO</a></li>
+                        <li> <a href="#page7" id= "video" class="navbar-link vc">SHOP</a></li> -->
+                        </ul>
+                </nav>
+            <div class="mobile-navbar-btn">
+                <i class="ri-menu-fill"></i>
+                <i class="ri-close-line"></i>
+            </div>
+        </header>
+            <audio class="audio" src="./clicksound.mp3" ></audio>
+            <!-- <div id="overlay">
+            </div> -->
+            <!-- <div id="mhead">
+                <div id="liny1"></div>
+                <h1>MUSIC</h1> -->
+                <div id="video">
+                
+                    <div id="overlay">
+                    </div>
+                    <video src="./Explore Music.mp4" autoplay muted loop width="${e://Field/vid_width}"></video>
+                </div>
+                <div class="cntnrtxt">
+                    <h2>Explore The Playlist</h2>
+                    <i class="ri-play-circle-line"></i>
+                    
+                    <!-- <i class="ri-pause-circle-line"></i> -->
+                </div>
+                <div id="musiccontainer">
+                <i class="ri-close-fill"></i>
+                <div id="hind">
+                    <div id="hindinpunjabi" class="clhne">
+                        <h2>Bollywood</h2>
+                    </div>
+                </div>
+                <div id="engcnt">
+                    <div id="English" onclick="bell()" class="clhne">
+                        <h2>English</h2>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div id="bhead">
+                <div id="liny2"></div>
+            </div> -->
+            <div class="popuphindi">
+                <i id="poph" class="ri-close-fill"></i>
+                <h3>HINDI & PUNJABI MASHUP</h3>
+                <div class="popicon">
+                    <div id="youtube" class="ico" >
+                        
+                        <a class="ri-youtube-line" href ="https://youtu.be/A5tQaoomedY" target="__blank"></a>
+                        <h5>Youtube</h5>
+                        
+                    </div>
+                    
+                    <div id="applemusic" class="ico" >
+                        <a class="ri-apple-line" href="https://www.apple.com/apple-music/" target="_blank"></a>
+                        <h5>Apple Music</h5>
+                    </div>
+                    <div id="amznmusic" class="ico" >
+                        <a class="ri-amazon-line" href="https://music.amazon.com/" target="_blank"></a>
+                        <h5>Amazon Music</h5>
+                    </div>
+                    <div id="spotify" class="ico" >
+                        <a class="ri-spotify-line" href="https://open.spotify.com/" target="_blank"></a>
+                        <h5>Spotify</h5>
+                    </div>
+                </div>    
+            </div>
+            <div class="popupenglish">
+                <i id="io" class="ri-close-fill"></i>
+                <h3>ENGLISH</h3>
+                <div class="popicon">
+                    <div id="youtube" class="ico" >
+                        
+                        <a class="ri-youtube-line" href ="https://youtu.be/A5tQaoomedY" target="_blank"></a>
+                        <h5>Youtube</h5>
+                        
+                    </div>
+                    
+                    <div id="applemusic" class="ico" >
+                        <a class="ri-apple-line" href="https://www.apple.com/apple-music/" target="_blank"></a>
+                        <h5>Apple Music</h5>
+                    </div>
+                    <div id="amznmusic" class="ico" >
+                        <a class="ri-amazon-line" href="https://music.amazon.com/" target="_blank"></a>
+                        <h5>Amazon Music</h5>
+                    </div>
+                    <div id="spotify" class="ico" >
+                        <a class="ri-spotify-line" href="https://open.spotify.com/" target="_blank"></a>
+                        <h5>Spotify</h5>
+                    </div>
+                </div>    
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Swipper JS -->
+<script src="./js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
